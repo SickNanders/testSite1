@@ -20,8 +20,8 @@
     specialRate = document.getElementById('specialRate');
 
     hotelName.textContent = hotel.name;           //Write hotel name
-    roomRate.textContent = '$' + hotel.roomRate.toFixed(2);        //Write standard room rate
-    specialRate.textContent = '$' + hotel.offerPrice();  //Write discounted room rate
+    roomRate.textContent = 'Standard Room Rate: $' +  hotel.roomRate.toFixed(2);        //Write standard room rate
+    specialRate.textContent = 'Your Rate: $' + hotel.offerPrice();  //Write discounted room rate
 
     //Part Two: Calculate and write the expiry details for the offer
 
@@ -51,6 +51,7 @@
     today = new Date();
     elEnds = document.getElementById('offerEnds');
     elEnds.innerHTML = offerExpires(today);
+    elEnds.innerHTML
 
 
 //Finish the IIFE
