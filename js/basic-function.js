@@ -51,8 +51,6 @@
     today = new Date();
     elEnds = document.getElementById('offerEnds');
     elEnds.innerHTML = offerExpires(today);
-    elEnds.innerHTML
-
 
 //Finish the IIFE
 } ());
