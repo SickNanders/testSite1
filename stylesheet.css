@@ -1,0 +1,11 @@
+.container {
+    margin:auto;
+    width: 1000px;
+    height: 800px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.container h1{
+    text-align: center;
+}
